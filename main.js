@@ -1330,18 +1330,18 @@
 // console.log(half(56.78,0.75))
 
 
-const result = {
-    success: ["max-length", "no-amd", "prefer-arrow-functions"],
-    failure: ["no-var", "var-on-top", "linebreak"],
-    skipped: ["no-extra-semi", "no-dup-keys"]
-  };
-  function makeList(arr) {
-    // Only change code below this line
-    const failureItems = ['<li class="text-warning">result.failure[0]</li>'];
-    console.log(failureItems);
-    // Only change code above this line
+// const result = {
+//     success: ["max-length", "no-amd", "prefer-arrow-functions"],
+//     failure: ["no-var", "var-on-top", "linebreak"],
+//     skipped: ["no-extra-semi", "no-dup-keys"]
+//   };
+//   function makeList(arr) {
+//     // Only change code below this line
+//     const failureItems = ['<li class="text-warning">result.failure[0]</li>'];
+//     console.log(failureItems);
+//     // Only change code above this line
   
-    return failureItems;
-  }
+//     return failureItems;
+//   }
   
-  const failuresList = makeList(result.failure);
+//   const failuresList = makeList(result.failure);
