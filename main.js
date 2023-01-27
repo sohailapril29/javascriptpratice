@@ -1258,15 +1258,90 @@
 // i--;
 // console.log(i);
 
-// function sum(arr, n) {
-//     // Only change code below this line
-  
-//     // Only change code above this line
-//   }
 
-//   function howMany(...args) {
-//     return "You have passed " + args.length + " arguments.";
-//   }
-//   console.log(howMany(0, 1, 2));
-//   console.log(howMany("string", null, [1, 2, 3], { }));
+
+// function sum(...args) {
+//     let result = 0;
+
+//     for(let i = 0; i <args.length; i++) {
+//         result += args[i];
+//     }
+
+//     console.log(result);
+// }
+// console.log(sum(0,1,2))
+// console.log(sum(1,2,3,4))
+// console.log(sum(5));
+// console.log(sum())
+
+// const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+// let arr2;
+
+// arr2 = [...arr1];  // Change this line
+
+// console.log(arr2);
+
+// const HIGH_TEMPERATURES = { yesterday: 75,today: 77,tomorrow: 80 };
+
+// // const highToday = HIGH_TEMPERATURES.today;
+// // const highTomorrow = HIGH_TEMPERATURES.tomorrow;
+
+// const { today: highToday, tomorrow: highTomorrow} = HIGH_TEMPERATURES;
+// console.log(HIGH_TEMPERATURES) 
   
+// const LOCAL_FORECAST = {
+//     yesterday: { low: 61, high: 75 },
+//     today: { low: 64, high: 77 },
+//     tomorrow: { low: 68, high: 80 }
+//   };
+
+// //   const lowToday = LOCAL_FORECAST.today.low;
+// //   const highToday = LOCAL_FORECAST.today.high;
+
+// const { today : { low:  lowToday, high: highToday}} = LOCAL_FORECAST;
+
+// let a = 8, b = 6;
+// [a,b] = [b,a];
+// function removeFirstTwo(list) {
+//     // Only change code below this line
+//     const [a, b, ...shorterList] = list; // Change this line
+//     // Only change code above this line
+//     return shorterList;
+//   }
+  
+//   const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   const sourceWithoutFirstTwo = removeFirstTwo(source);
+
+// console.log(sourceWithoutFirstTwo)
+
+// const stats = {
+//     max: 56.78,
+//     standard_deviation: 4.34,
+//     median: 34.54,
+//     mode: 23.87,
+//     min: -0.75,
+//     average: 35.85
+//   };
+  
+
+// const half = ({ max, min}) => {
+//     return max + min / 2.0;
+// }
+// console.log(half(56.78,0.75))
+
+
+const result = {
+    success: ["max-length", "no-amd", "prefer-arrow-functions"],
+    failure: ["no-var", "var-on-top", "linebreak"],
+    skipped: ["no-extra-semi", "no-dup-keys"]
+  };
+  function makeList(arr) {
+    // Only change code below this line
+    const failureItems = ['<li class="text-warning">result.failure[0]</li>'];
+    console.log(failureItems);
+    // Only change code above this line
+  
+    return failureItems;
+  }
+  
+  const failuresList = makeList(result.failure);
