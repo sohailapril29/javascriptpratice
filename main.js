@@ -1348,7 +1348,27 @@
 
 /*
 ##################################
-######## problem solving##########
+######## problem solving 16.02.2023 ##########
 ##################################
 ##################################
-*/ 
+*/
+
+// function sumOfTwo(a, b) {
+//     return a + b;
+// }
+// // sumOfTwo(1,2)
+// console.log(sumOfTwo(1,2));
+
+// var object = new Object();
+// var object = Object.create(null);
+// var object = {
+//     "name": "sohail",
+//     "age": 19,
+//     sohail2 : {
+//         "name": "sohail2",
+//         "age" : 192
+//     }
+// };
+// console.log(object.sohail2.name);
+
+// console.log("Hello World");
